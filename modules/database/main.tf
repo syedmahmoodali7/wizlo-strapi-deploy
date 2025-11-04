@@ -20,6 +20,6 @@
 # }
 
 output "connection_string" {
-  value = "postgresql://${var.db_username}:${var.db_password}@${azurerm_postgresql_flexible_server.this.fqdn}:5432/${var.db_name}"
+  value = "placeholder-db-connection-string"
   sensitive = true
 }
