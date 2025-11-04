@@ -4,5 +4,5 @@
 # }
 
 output "name" {
-  value = azurerm_resource_group.this.name  
+  value = "placeholder-resource-group" 
 }
