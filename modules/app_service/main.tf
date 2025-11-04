@@ -44,5 +44,5 @@
 # }
 
 output "cms_url" {
-  value = azurerm_linux_web_app.this.default_hostname
+value = "placeholder-strapi-url"
 }
